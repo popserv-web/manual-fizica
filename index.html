@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<title>Fizică clasa a VI-a – Lecția: Inerția</title>
+
+<style>
+
+
+body{
+font-family: "Segoe UI", Arial, sans-serif;
+background-color:#f4f7fb;
+margin:30px;
+line-height:1.6;
+color:#222;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+background:white;
+padding:40px;
+border-radius:10px;
+box-shadow:0 0 12px rgba(0,0,0,0.08);
+}
+
+h1{
+color:#1c4a7a;
+text-align:center;
+}
+
+h2{
+color:#2d6aa0;
+border-bottom:2px solid #e0e6ef;
+padding-bottom:5px;
+}
+
+.experiment{
+background:#eef6ff;
+padding:15px;
+border-left:5px solid #4a90e2;
+margin:15px 0;
+}
+
+.exercise{
+background:#f9f9f9;
+padding:15px;
+border-left:5px solid #999;
+margin:15px 0;
+}
+
+.challenge{
+background:#fff6e6;
+padding:15px;
+border-left:5px solid #ff9900;
+margin:15px 0;
+}
+
+.vocab{
+background:#eef8f1;
+padding:15px;
+border-left:5px solid #3ca66b;
+margin-top:25px;
+}
+
+img{
+display:block;
+margin:auto;
+max-width:70%;
+}
+
+.answer{
+color:#2a7;
+font-weight:bold;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+
+<h1>INERȚIA</h1>
+
+<h2>1. Observăm lumea din jur</h2>
+
+<p>
+Ai mers vreodată într-un autobuz care frânează brusc? Ce se întâmplă cu pasagerii?  
+De obicei, corpul lor se mișcă înainte.<br>
+Sau ai încercat să tragi repede o foaie de hârtie de sub o carte?  
+Cartea rămâne aproape pe loc.<br>
+
+Aceste fenomene sunt exemple ale unei proprietăți importante a corpurilor numite <b>inerție</b>.
+</p>
+
+
+<div style="text-align:center;margin:6px 0;">
+
+<svg width="500" height="180">
+
+<rect x="80" y="80" width="300" height="60" fill="#4a90e2" rx="10"/>
+<rect x="100" y="50" width="120" height="40" fill="#4a90e2"/>
+
+<circle cx="140" cy="150" r="18" fill="#333"/>
+<circle cx="310" cy="150" r="18" fill="#333"/>
+
+<circle cx="250" cy="65" r="10" fill="#ffd6a5"/>
+<line x1="250" y1="75" x2="250" y2="100" stroke="black" stroke-width="3"/>
+<line x1="250" y1="80" x2="235" y2="90" stroke="black" stroke-width="3"/>
+<line x1="250" y1="80" x2="265" y2="90" stroke="black" stroke-width="3"/>
+
+<line x1="270" y1="65" x2="340" y2="65" stroke="red" stroke-width="4"/>
+<polygon points="340,65 325,57 325,73" fill="red"/>
+
+<text x="230" y="28" font-size="20" text-anchor="middle">
+Autobuzul frânează
+</text>
+
+</svg>
+
+</div>
+
+<p style="text-align:center;margin-top:4px;">
+Când autobuzul frânează brusc, pasagerii tind să se deplaseze înainte.
+Acesta este un exemplu de inerție.
+</p>
+
+<h2>2. Experiment </h2>
+
+<div class="experiment">
+
+<table style="width:100%; border-collapse:collapse;">
+<tr>
+
+<td style="width:60%; padding-right:12px;">
+
+
+Deasupra unui pahar gol, <b>P</b>, aflat pe masă, așezați o hârtie groasă de desen <b>C</b>, 
+iar deasupra acesteia puneți o monedă <b>M</b>, așa cum se arată în figura din dreapta. 
+Trageți brusc hârtia. Observați că moneda cade în pahar, nu se mișcă odată cu hârtia. 
+De ce? Cum explicați acest lucru?
+
+</td>
+
+<td style="width:40%; text-align:center;">
+
+<svg width="260" height="200">
+
+<!-- pahar -->
+<rect x="90" y="70" width="80" height="90" fill="none" stroke="black" stroke-width="3"/>
+
+<!-- hartie -->
+<rect x="70" y="60" width="120" height="10" fill="#ddd" stroke="black"/>
+
+<!-- moneda -->
+<circle cx="130" cy="45" r="15" fill="#ccc" stroke="black" stroke-width="2"/>
+
+<!-- sageata -->
+<line x1="150" y1="50" x2="210" y2="50" stroke="black" stroke-width="3"/>
+<polygon points="210,50 195,40 195,60" fill="black"/>
+
+<!-- etichete -->
+<text x="133" y="25" font-size="16">M</text>
+<text x="72" y="55" font-size="16">C</text>
+<text x="125" y="180" font-size="16">P</text>
+
+</svg>
+
+</td>
+
+</tr>
+</table>
+
+</div>
+<h2>3. Ce este inerția?</h2>
+
+<ul> 
+<b>Inerția</b> este proprietatea corpurilor de a-și păstra starea de repaus sau de mișcare rectilinie uniformă.
+<br>Cu alte cuvinte:
+<br>- un corp aflat în repaus tinde să rămână în repaus;
+<br>- un corp aflat în mișcare tinde să își păstreze mișcarea.
+<br>Pentru ca starea de mișcare să se schimbe, trebuie să acționeze asupra corpului o <b>forță</b>.
+</ul>
+
+
+<h2>4. Exemple din viața de zi cu zi</h2>
+
+<ul>
+<li>Pasagerii dintr-un autobuz se apleacă înainte când acesta frânează.</li>
+<li>Când covorul este scuturat, praful se desprinde.</li>
+<li>Centura de siguranță ne protejează în cazul frânării bruște.</li>
+<li>Când tragi repede fața de masă, farfuriile rămân aproape pe loc.</li>
+</ul>
+
+
+<h2>5. Activități de învățare</h2>
+
+<div class="exercise">
+
+<b>Activitatea 1</b>
+
+<p>Observă situațiile și spune dacă apare inerția:</p>
+
+<ol>
+<li>O minge se oprește după ce lovește un perete.</li>
+<li>Un skateboard continuă să se deplaseze după ce nu mai împingi.</li>
+<li>Un pahar rămâne pe masă când tragi rapid fața de masă.</li>
+</ol>
+
+
+</div>
+
+
+<div class="exercise">
+
+<b>Activitatea 2</b>
+
+<p>Completează:</p>
+
+<ol>
+<li>Inerția este proprietatea corpurilor de a-și păstra starea de ______.</li>
+<li>Pentru a schimba mișcarea unui corp trebuie să acționeze o ______.</li>
+</ol>
+
+
+</div>
+
+
+<h2>6. Experimente </h2>
+
+<div class="experiment">
+
+<b> Scuturarea covorului </b>
+
+<p>
+Scutură un covor sau o pătură. Praful se desprinde deoarece particulele tind să rămână în repaus când covorul este pus brusc în mișcare.
+</p>
+
+</div>
+
+<div class="experiment">
+
+<b> Cartea și foaia </b>
+
+<p>
+Pune o foaie pe masă și o carte peste ea. Trage foaia repede.  
+Cartea rămâne aproape pe loc datorită inerției.
+</p>
+
+</div>
+
+<div class="experiment">
+
+<b> Evidențierea inerției unui corp </b>
+
+<p>
+Pe o placă de lemn sau pe o foaie groasă de carton <b>S</b> se așază un cilindru <b>C</b>.
+Pe masă, în dreptul cilindrului, se așază un corp paralelipipedic <b>S₁</b>, fără ca acesta
+să atingă placa.
+</p>
+
+<p><u><i>Mod de lucru:</i></u></p>
+
+<ol>
+<li>Trageți brusc placa <b>S</b> în sensul <b>a → b</b>.</li>
+<li>Observați mișcarea cilindrului <b>C</b>.</li>
+</ol>
+
+<p><u><i>Observație:</i></u></p>
+
+<p>
+În primul moment cilindrul rămâne puțin în urmă și se deplasează foarte puțin
+în sens opus mișcării plăcii. Poziția lui față de reperul <b>S₁</b> rămâne
+aproape neschimbată.
+</p>
+
+<p><u><i>Concluzie:</i></u></p>
+
+<p>
+Cilindrul <b>C</b> se opune schimbării stării sale de repaus.
+Această proprietate a corpurilor se numește <b>inerție</b>.
+</p>
+
+<div style="text-align:center;margin-top:2px;">
+
+<svg width="520" height="150">
+
+<!-- masa -->
+<rect x="40" y="105" width="420" height="10" fill="#888"/>
+
+<!-- placa -->
+<polygon points="100,75 380,75 340,105 60,105"
+fill="#e0c89f" stroke="black"/>
+
+<!-- cilindru -->
+<ellipse cx="250" cy="70" rx="15" ry="7" fill="#cccccc" stroke="black"/>
+<rect x="235" y="50" width="30" height="20" fill="#cccccc" stroke="black"/>
+
+<!-- reper -->
+<rect x="410" y="65" width="25" height="40" fill="#666"/>
+
+<!-- litere -->
+<text x="260" y="45" font-size="16">C</text>
+<text x="420" y="60" font-size="16">S₁</text>
+<text x="90" y="90" font-size="16">S</text>
+
+<!-- sageti -->
+<line x1="170" y1="125" x2="320" y2="125" stroke="red" stroke-width="4"/>
+<polygon points="320,125 305,115 305,135" fill="red"/>
+
+<text x="165" y="145" font-size="16">a</text>
+<text x="330" y="145" font-size="16">b</text>
+<p style="text-align:center; font-size:15px; margin-top:6px;">
+Montaj pentru punerea în evidență a inerției unui corp
+</p>
+</svg>
+
+</div>
+</div>
+
+
+<h2>7. Probleme și exerciții</h2>
+
+<div class="exercise">
+<b>Exercițiul 1</b> <br>
+De ce este necesară centura de siguranță în automobil?
+</div>
+
+
+<div class="exercise">
+<b>Exercițiul 2</b> <br>
+Un autobuz pornește brusc. În ce direcție se înclină pasagerii?
+</div>
+
+<div class="exercise">
+<b>Exercițiul 3</b> <br>
+De ce se coboară dintr-un vehicul în sensul de mers al acestuia?
+</div>
+
+<div class="exercise">
+<b>Exercițiul 4</b><br>
+De ce un autoturism încărcat demarează (pornește) mai greu decât unul gol?
+</div>
+
+
+<div class="challenge">
+<b>★ Exercițiu pentru elevi avansați</b> <br>
+Două mingi, una de tenis și una de metal, sunt împinse cu aceeași forță.  
+Care dintre ele își schimbă mai greu mișcarea?
+
+</div>
+<div class="challenge">
+<b>★ Problemă de gândire</b>
+<p>
+De ce este mai greu să împingi un camion decât o bicicletă?
+</p>
+
+
+</div>
+
+
+<h2>8. Ce trebuie să reținem</h2>
+
+<ul>
+<li>Inerția este o proprietate a tuturor corpurilor.</li>
+<li>Corpurile tind să își păstreze starea de repaus sau de mișcare.</li>
+<li>Cu cât masa unui corp este mai mare, cu atât inerția este mai mare.</li>
+<li>Schimbarea mișcării apare doar atunci când acționează o forță.</li>
+</ul>
+
+
+<div class="vocab">
+
+<h2>Vocabular</h2>
+
+<ul>
+
+<li><b>Inerție</b> – proprietatea corpurilor de a-și păstra starea de repaus sau de mișcare.</li>
+
+<li><b>Repaus</b> – starea unui corp care nu își schimbă poziția față de un reper.</li>
+
+<li><b>Mișcare</b> – schimbarea poziției unui corp în timp.</li>
+
+<li><b>Forță</b> – acțiunea care poate schimba mișcarea sau forma unui corp.</li>
+
+<li><b>Masă</b> – mărime fizică ce caracterizează cantitatea de materie a unui corp.</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</body>
+</html>
